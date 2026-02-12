@@ -5,6 +5,8 @@ services:
     env_file:
       - .env
     environment:
+      BOT_TOKEN: ${BOT_TOKEN:?BOT_TOKEN is required in .env}
+      DATABASE_URL: ${DATABASE_URL:?DATABASE_URL is required in .env}
       NODE_ENV: production
       PORT: 3000
     ports:
