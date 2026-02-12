@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm install:*)",
+      "Bash(pnpm approve-builds:*)",
+      "Bash(pnpm rebuild:*)",
+      "Bash(node -e:*)",
+      "Bash(psql:*)",
+      "Bash(brew list:*)",
+      "Bash(docker:*)",
+      "Bash(pnpm add:*)",
+      "Bash(brew install:*)",
+      "Bash(open:*)",
+      "Bash(node:*)",
+      "WebFetch(domain:core.telegram.org)"
+    ]
+  }
+}

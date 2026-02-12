@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: protest-match-bot
+    env: node
+    plan: free
+    buildCommand: corepack enable && pnpm install --frozen-lockfile
+    startCommand: pnpm start
+    autoDeploy: true
